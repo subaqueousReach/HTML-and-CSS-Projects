@@ -21,6 +21,6 @@ Created several webpages as assignments for the course, making lists and tables 
 <a href="https://github.com/subaqueousReach/HTML-and-CSS-Projects/tree/main/One-Page%20Website">See One-Page Website Folder</a>
 
 ### 5. CSS Website Project
-Practicing utilizing CSS language to design and modify my web pages.
+Practicing utilizing CSS language to design and modify my web pages. Created several stylesheets with different effects and made a final, functioning website.
 
 <a href="https://github.com/subaqueousReach/HTML-and-CSS-Projects/tree/main/project">See project Folder</a>
