@@ -1,0 +1,8 @@
+/* This changes the font of the list */
+ol {
+	list-style-type: upper-roman;
+}
+/* This changes the bullet type to square */
+ul {
+	list-style-type: square;
+}

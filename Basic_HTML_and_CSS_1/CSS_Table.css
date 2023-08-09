@@ -1,0 +1,19 @@
+/* This creates a border around the table and cells */
+table {
+	border: 1px solid silver;
+}
+/* This makes it so the cells highlight yellow and change the font color to black when the cursor hovers over them */
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+/* this sets the background of the header cells to black and the fonc color to yellow */
+tr, th {
+	background-color:black;
+	color: cornsilk;
+}
+/* This sets the standard cell color to green */
+tr, td {
+	background-color:darkgreen;
+	color: white;
+}
