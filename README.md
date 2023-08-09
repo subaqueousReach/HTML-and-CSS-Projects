@@ -17,8 +17,8 @@ More practice utilizing HTML and basic JavaScript functions within for a very si
 ### 4. Basic HTML and CSS
 Created several webpages as assignments for the course, making lists and tables using style elements. The final assignment was a one-page website utilizing the skills learned.
 
-<a href="https://github.com/subaqueousReach/HTML-and-CSS-Project/tree/main/Basic_HTML_and_CSS">See Basic HTML and CSS Folder</a>
-<a href="https://github.com/subaqueousReach/HTML-and-CSS-Projects/tree/main/One-Page%20Website">See One-Page Website Folder</a>
+<a href="https://github.com/subaqueousReach/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS">See Basic HTML and CSS Folder</a>
+<br><a href="https://github.com/subaqueousReach/HTML-and-CSS-Projects/tree/main/One-Page%20Website">See One-Page Website Folder</a>
 
 ### 5. CSS Website Project
 Practicing utilizing CSS language to design and modify my web pages. Created several stylesheets with different effects and made a final, functioning website.
