@@ -34,4 +34,4 @@ Created a website from the ground up utilizing Bootstrap 4 for my styling.
 Created and published a website showcasing my various works.
 
 • <a href="https://github.com/subaqueousReach/Portfolio/tree/main">See Portfolio Repository</a>
-• <a href="https://subaqueousReach.github.io/Porfolio">Visit Porfolio Website</a>
+<br>• <a href="https://subaqueousReach.github.io/Porfolio">Visit Porfolio Website</a>
