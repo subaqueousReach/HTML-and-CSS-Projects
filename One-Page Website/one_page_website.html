@@ -4,6 +4,7 @@
 		<title>Beetle Facts</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="js/one_page_website.js" defer></script>
 	</head>
 	<body>		
 		<!-- Nav Element with bookmark links -->
@@ -35,51 +36,124 @@
 			
 			<!-- Images Section -->
 			<section>
+
 				<div id="images">
 					<h2>Types of Beetles</h2>
 					<div>
-						<!--PHOTO-CONTAINER 1-->
-						<div class="image-container">
+						<!--IMAGE-CONTAINER 1-->
+						<div class="image-container"  onclick="openSlideshow(); currentSlide(1)">
 							<h3>Stag Beetle</h3>
 							<img src="images/beetle_1.png" alt="Stag Beetle">
 						</div>
-						<!--End PHOTO-CONTAINER 1-->
+						<!--End IMAGE-CONTAINER 1-->
 						
-						<!--PHOTO-CONTAINER 2-->
+						<!--IMAGE-CONTAINER 2-->
 						<div class="image-container">
 							<h3>Dung Beetle</h3>
-							<img src="images/beetle_2.png" alt="Dung Beetle">
+							<img src="images/beetle_2.png" alt="Dung Beetle" onclick="openSlideshow(); currentSlide(2)">
 						</div>
-						<!--End PHOTO-CONTAINER 2-->
+						<!--End IMAGE-CONTAINER 2-->
 						
-						<!--PHOTO-CONTAINER 3-->
+						<!--IMAGE-CONTAINER 3-->
 						<div class="image-container">
 							<h3>Jewel Beetle</h3>
-							<img src="images/beetle_3.png" alt="Jewel Beetle">
+							<img src="images/beetle_3.png" alt="Jewel Beetle" onclick="openSlideshow(); currentSlide(3)">
 						</div>
-						<!--End PHOTO-CONTAINER 3-->
+						<!--End IMAGE-CONTAINER 3-->
 						
-						<!--PHOTO-CONTAINER 4-->
+						<!--IMAGE-CONTAINER 4-->
 						<div class="image-container">
 							<h3>Leaf Beetle</h3>
-							<img src="images/beetle_4.png" alt="Leaf Beetle">
+							<img src="images/beetle_4.png" alt="Leaf Beetle" onclick="openSlideshow(); currentSlide(4)">
 						</div>
-						<!--End PHOTO-CONTAINER 4-->
+						<!--End IMAGE-CONTAINER 4-->
 						
-						<!--PHOTO-CONTAINER 5-->
-						<div class="image-container">
+						<!--IMAGE-CONTAINER 5-->
+						<div class="image-container"  onclick="openSlideshow(); currentSlide(5)">
 							<h3>Carrion Beetle</h3>
 							<img src="images/beetle_5.png" alt="Carrion Beetle">
 						</div>
-						<!--End PHOTO-CONTAINER 5-->
+						<!--End IMAGE-CONTAINER 5-->
 						
-						<!--PHOTO-CONTAINER 6-->
+						<!--IMAGE-CONTAINER 6-->
 						<div class="image-container">
 							<h3>Whirligig Beetle</h3>
-							<img src="images/beetle_6.png" alt="Whirligig Beetle">
+							<img src="images/beetle_6.png" alt="Whirligig Beetle" onclick="openSlideshow(); currentSlide(6)">
 						</div>
-						<!--End PHOTO-CONTAINER 6-->
-					
+						<!--End IMAGE-CONTAINER 6-->
+					</div>
+	<!--!!!-->		<!-- Lightbox -->
+					<div id="mySlideshow" class="modal">
+						<span class="close cursor" onclick="closeSlideshow()">&times;</span>
+						<div class="slideshow-content">
+
+							<!-- Slide 1 -->
+							<div class="mySlides">
+								<div class="numbertext">1 / 6</div>
+								<img src="images/beetle_1.png" style="width: 500px">
+							</div>
+
+							<!-- Slide 2 -->
+							<div class="mySlides">
+								<div class="numbertext">2 / 6</div>
+								<img src="images/beetle_2.png" style="width: 500px">
+							</div>
+
+							<!-- Slide 3 -->
+							<div class="mySlides">
+								<div class="numbertext">3 / 6</div>
+								<img src="images/beetle_3.png" style="width: 500px">
+							</div>
+
+							<!-- Slide 4 -->
+							<div class="mySlides">
+								<div class="numbertext">4 / 6</div>
+								<img src="images/beetle_4.png" style="width: 500px">
+							</div>
+
+							<!-- Slide 5 -->
+							<div class="mySlides">
+								<div class="numbertext">5 / 6</div>
+								<img src="images/beetle_5.png" style="width: 500px">
+							</div>
+
+							<!-- Slide 6 -->
+							<div class="mySlides">
+								<div class="numbertext">6 / 6</div>
+								<img src="images/beetle_6.png" style="width: 500px">
+							</div>
+
+							<!-- Lightbox Controls-->
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+							<!-- Captions -->
+							<div class="caption-container">
+								<p id="caption"></p>
+								</div>
+
+							<!-- Thumbnail Ribbon -->
+							<div class="column">
+								<img class="thumb" src="images/beetle_1thumb.png" onclick="currentSlide(1)" alt="Stag Beetle">
+							</div>
+							<div class="column">
+								<img class="thumb" src="images/beetle_2thumb.png" onclick="currentSlide(2)" alt="Dung Beetle">
+							</div>
+							<div class="column">
+								<img class="thumb" src="images/beetle_3thumb.png" onclick="currentSlide(3)" alt="Jewel Beetle">
+							</div>
+							<div class="column">
+								<img class="thumb" src="images/beetle_4thumb.png" onclick="currentSlide(4)" alt="Leaf Beetle">
+							</div>
+							<div class="column">
+								<img class="thumb" src="images/beetle_5thumb.png" onclick="currentSlide(5)" alt="Carrion Beetle">
+							</div>
+							<div class="column">
+								<img class="thumb" src="images/beetle_6thumb.png" onclick="currentSlide(6)" alt="Whirligig Beetle">
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</section>
 						
@@ -106,7 +180,6 @@
 				</div>
 			</section>
 		</div>
-
 	</body>
 	<footer>
 		<em>We here at Beetle Facts think beetles are pretty cool.</em>
