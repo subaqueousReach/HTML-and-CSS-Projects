@@ -95,7 +95,7 @@ iframe {
   Slideshow Settings
 ===================*/
 
-.column {
+.column { /* Spaces the thumbnails*/
     float: left;
     width: 16%;
 }
